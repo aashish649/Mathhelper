@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths</title>
+    <link rel="stylesheet" href="/css/page.css">
+    <link rel="stylesheet" href="/css/box.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/background.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body id="body">
+    <nav class="nav_black" id="navbar">
+        <ul id="navitems">
+            <li class="navitem"> <a class="nav_black" href="/indexh.html">HOME</a> </li>
+        </ul>
+
+    </nav>
+<br><br>
+    <a style="width: 150px;margin: 100px;text-decoration: underline;" href="/html/convertor.html">Back to pervious page</a>
+    <br><br><br>
+    <div class="input equation_box margin box">
+
+        <label for="unitlength1"></label>
+        <select class="margin" style="height: 35px;width: 160px; " name="length_unit" id="unitlength1">
+            <option value="millimeter">millimeter</option>
+            <option value="nanometer">nanometer</option>
+            <option value="micrometer">micrometer</option>
+            <option value="centimeter">centimeter</option>
+            <option value="yard">yard</option>
+            <option value="meter">meter</option>
+            <option value="inch">inch</option>
+            <option value="feet">feet</option>
+            <option value="kilometer">kilometer</option>
+            <option value="mile">mile</option>
+        </select>
+
+        <input class="answerh margin" style="height: 35px;width: 160px; "  placeholder="Enter your value" type="number" name=""
+            id="userinplength">
+
+
+        <h2 class="answerh" style="height: 35px;width: 160px; " >TO</h2>
+
+
+        <label for="unitlength2"></label>
+        <select class="answerh margin" style="height: 35px;width: 160px; "  name="length_unit"
+            id="unitlength2">
+            <option value="millimeter">millimeter</option>
+            <option value="nanometer">nanometer</option>
+            <option value="micrometer">micrometer</option>
+            <option value="centimeter">centimeter</option>
+            <option value="yard">yard</option>
+            <option value="meter">meter</option>
+            <option value="inch">inch</option>
+            <option value="feet">feet</option>
+            <option value="kilometer">kilometer</option>
+            <option value="mile">mile</option>
+        </select>
+
+
+
+        <div id="answerlength" class="answerh flex_box">Answer</div>
+        <div onclick="convertlength()">
+
+            <button class="margin answerh">convert</button>
+        </div>
+    </div>
+    <br><br><br>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/indexl.js"></script>
+</body>
+
+</html>

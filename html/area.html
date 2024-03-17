@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maths</title>
+  <link rel="stylesheet" href="/css/page.css">
+  <link rel="stylesheet" href="/css/box.css">
+  <link rel="stylesheet" href="/css/button.css">
+  <link rel="stylesheet" href="/css/background.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body id="body">
+  <nav class="nav_black" id="navbar">
+    <ul id="navitems">
+      <li class="navitem"> <a class="nav_black" href="/indexh.html">HOME</a> </li>
+
+    </ul>
+  </nav><br><br><br>
+  <div class="input equation_box margin box" id="area1">
+    <h2>Circle</h2>
+    <input id="radius" style="height: 40px; margin: 10px;" type="number" name="" placeholder="Enter radius" id="">
+    <div class="flex_box answerh">
+      <button class="margin" onclick="areac()">calculate</button>
+    </div>
+    <h2 id="circlearea" class="answerph flex_box">AREA</h2>
+  </div><br>
+  <div class="input equation_box margin box" id="area2">
+    <h2>Square</h2>
+    <input id="side" style="height: 40px;margin: 10px;" type="number" name="" placeholder="Enter side" id="">
+    <div class="flex_box answerh">
+      <button class="margin" onclick="areas()">calculate</button>
+    </div>
+  </div>
+  <h2 id="squarearea" class="answerph flex_box">AREA</h2>
+  </div><br>
+  <div class="input equation_box margin box" id="area3">
+    <h2>Rectangle</h2>
+    <input id="side1" style="height: 40px;margin: 10px;" type="number" name="" placeholder="Enter length">
+    <input id="side2" style="height: 40px;margin: 10px;" type="number" name="" placeholder="Enter width">
+    <div class="flex_box">
+      <button class="margin answerh" onclick="arear()">calculate</button>
+    </div>
+    <h2 id="rectanglearea" class="answerph flex_box">AREA</h2>
+  </div><br>
+  <div class="input equation_box margin box" id="area4">
+    <h2>Right angle triangle</h2>
+    <input id="side3" style="height: 40px;margin: 10px;" type="number" name="" placeholder="Enter height">
+    <input id="side4" style="height: 40px;margin: 10px;" type="number" name="" placeholder="Enter base">
+    <div class="flex_box">
+      <button class="btn answerh" onclick="areat()">calculate</button>
+    </div>
+    <h2 id="trianglearea" class="answerph flex_box">AREA</h2>
+  </div><br>
+
+
+  <script src="/javascript/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths</title>
+    <link rel="stylesheet" href="/css/page.css">
+    <link rel="stylesheet" href="/css/box.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/background.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body id="body">
+    <nav class="nav_black" id="navbar">
+        <ul id="navitems">
+            <li class="navitem"> <a class="nav_black" href="/indexh.html">HOME</a> </li>
+        </ul>
+
+    </nav>
+    <br><br><br>
+    <a style="width: 150px;margin: 100px;text-decoration: underline;" href="/html/convertor.html">Back to pervious
+        page</a>
+    <br><br><br>
+
+    <div class="input equation_box margin box">
+
+
+        <label for="unitarea1"></label>
+        <select class="margin" style="height: 35px;width: 160px; " name="length_unit" id="unitarea1">
+            <option value="millimeter square">millimeter square</option>
+            <option value="nanometer square">nanometer square</option>
+            <option value="micrometer square">micrometer square</option>
+            <option value="centimeter square">centimeter square</option>
+            <option value="yard square">yard square</option>
+            <option value="meter square">meter square</option>
+            <option value="inch square">inch square</option>
+            <option value="feet square">feet square</option>
+            <option value="kilometer square">kilometer square</option>
+            <option value="mile square">mile square</option>
+        </select>
+
+
+        <input class="answerh margin" style="height: 35px;width: 160px; " placeholder="Enter your value" type="number"
+            name="" id="userinparea">
+
+        <h2 class="answerh" style="height: 35px;width: 160px; ">TO</h2>
+
+
+        <label for="unitarea2"></label>
+        <select class="answerh margin" style="height: 35px;width: 160px; " name="length_unit" id="unitarea2">
+            <option value="millimeter square">millimeter square</option>
+            <option value="nanometer square">nanometer square</option>
+            <option value="micrometer square">micrometer square</option>
+            <option value="centimeter square">centimeter square</option>
+            <option value="yard square">yard square</option>
+            <option value="meter square">meter square</option>
+            <option value="inch square">inch square</option>
+            <option value="feet square">feet square</option>
+            <option value="kilometer square">kilometer square</option>
+            <option value="mile square">mile square</option>
+        </select>
+
+
+
+
+        <div id="answerarea" class="answerh flex_box">Answer</div>
+
+        <div onclick="convertarea()"><button class="margin answerh">convert</button></div>
+    </div>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/indexa.js"></script>
+</body>
+
+</html>

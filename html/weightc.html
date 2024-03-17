@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths</title>
+    <link rel="stylesheet" href="/css/page.css">
+    <link rel="stylesheet" href="/css/box.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/background.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body id="body">
+    <nav class="nav_black" id="navbar">
+        <ul id="navitems">
+            <li class="navitem"> <a class="nav_black" href="/indexh.html">HOME</a> </li>
+        </ul>
+
+    </nav>
+    <br><br><br>
+    <a style="width: 150px;margin: 100px;text-decoration: underline;" href="/html/convertor.html">Back to pervious
+        page</a>
+    <br><br><br>
+
+
+
+    <div class="input equation_box margin box">
+        <label for="unitweight1"></label>
+        <select class="margin" style="height: 35px;width: 160px; " name="length_unit" id="unitweight1">
+            <option value="milligram">milligram</option>
+            <option value="gram">gram</option>
+            <option value="kilogram">kilogram</option>
+            <option value="ton">ton</option>
+            <option value="metric ton">metric ton</option>
+            <option value="pound">pound</option>
+            <option value="atomic mass unit">atomic mass unit</option>
+            <option value="long ton">long ton</option>
+            <option value="short ton">short ton</option>
+            <option value="carrat">carrat</option>
+            <option value="ounce">ounce</option>
+        </select>
+
+
+        <input class="answerh margin" style="height: 35px;width: 160px; " placeholder="Enter your value" type="number"
+            name="" id="userinpweight">
+
+        <h2 class="answerh" style="height: 35px;width: 160px; ">TO</h2>
+
+
+        <label for="unitweight2"></label>
+        <select class="answerh margin" style="height: 35px;width: 160px; " class="top_height" name="length_unit"
+            id="unitweight2">
+            <option value="milligram">milligram</option>
+            <option value="gram">gram</option>
+            <option value="kilogram">kilogram</option>
+            <option value="ton">ton</option>
+            <option value="metric ton">metric ton</option>
+            <option value="pound">pound</option>
+            <option value="atomic mass unit">atomic mass unit</option>
+            <option value="long ton">long ton</option>
+            <option value="short ton">short ton</option>
+            <option value="carrat">carrat</option>
+            <option value="ounce">ounce</option>
+        </select>
+
+
+        <div id="answerweight" class="answerh flex_box">Answer</div>
+
+        <div onclick="convertweight()"><button class="margin answerh">convert</button></div>
+
+
+
+    </div>
+    <script src="/javascript/index.js"></script>
+    <script src="/javascript/indexw.js"></script>
+</body>
+
+</html>
